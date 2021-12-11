@@ -1,0 +1,171 @@
+000000000040193e <start_farm>:
+  40193e:	b8 01 00 00 00       	mov    $0x1,%eax
+  401943:	c3                   	retq   
+
+0000000000401944 <setval_407>:
+  401944:	c7 07 58 90 90 c3    	movl   $0xc3909058,(%rdi)
+  40194a:	c3                   	retq   
+
+000000000040194b <addval_453>:
+  40194b:	8d 87 48 89 c7 90    	lea    -0x6f3876b8(%rdi),%eax
+  401951:	c3                   	retq   
+
+0000000000401952 <getval_397>:
+  401952:	b8 58 90 90 90       	mov    $0x90909058,%eax
+  401957:	c3                   	retq   
+
+0000000000401958 <getval_129>:
+  401958:	b8 49 89 c7 c3       	mov    $0xc3c78949,%eax
+  40195d:	c3                   	retq   
+
+000000000040195e <addval_398>:
+  40195e:	8d 87 48 89 c7 c1    	lea    -0x3e3876b8(%rdi),%eax
+  401964:	c3                   	retq   
+
+0000000000401965 <setval_200>:
+  401965:	c7 07 b8 a9 58 92    	movl   $0x9258a9b8,(%rdi)
+  40196b:	c3                   	retq   
+
+000000000040196c <getval_445>:
+  40196c:	b8 60 48 89 c7       	mov    $0xc7894860,%eax
+  401971:	c3                   	retq   
+
+0000000000401972 <addval_113>:
+  401972:	8d 87 50 58 94 90    	lea    -0x6f6ba7b0(%rdi),%eax
+  401978:	c3                   	retq   
+
+0000000000401979 <mid_farm>:
+  401979:	b8 01 00 00 00       	mov    $0x1,%eax
+  40197e:	c3                   	retq   
+
+000000000040197f <add_xy>:
+  40197f:	48 8d 04 37          	lea    (%rdi,%rsi,1),%rax
+  401983:	c3                   	retq   
+
+0000000000401984 <setval_417>:
+  401984:	c7 07 68 89 e0 c3    	movl   $0xc3e08968,(%rdi)
+  40198a:	c3                   	retq   
+
+000000000040198b <getval_478>:
+  40198b:	b8 99 ce c3 8f       	mov    $0x8fc3ce99,%eax
+  401990:	c3                   	retq   
+
+0000000000401991 <addval_216>:
+  401991:	8d 87 48 89 e0 c2    	lea    -0x3d1f76b8(%rdi),%eax
+  401997:	c3                   	retq   
+
+0000000000401998 <addval_376>:
+  401998:	8d 87 8d ce 84 c0    	lea    -0x3f7b3173(%rdi),%eax
+  40199e:	c3                   	retq   
+
+000000000040199f <getval_111>:
+  40199f:	b8 99 d1 20 c0       	mov    $0xc020d199,%eax
+  4019a4:	c3                   	retq   
+
+00000000004019a5 <getval_104>:
+  4019a5:	b8 89 ce 90 c3       	mov    $0xc390ce89,%eax
+  4019aa:	c3                   	retq   
+
+00000000004019ab <getval_117>:
+  4019ab:	b8 48 89 e0 c7       	mov    $0xc7e08948,%eax
+  4019b0:	c3                   	retq   
+
+00000000004019b1 <getval_315>:
+  4019b1:	b8 88 ce 08 c9       	mov    $0xc908ce88,%eax
+  4019b6:	c3                   	retq   
+
+00000000004019b7 <addval_155>:
+  4019b7:	8d 87 89 c2 28 c0    	lea    -0x3fd73d77(%rdi),%eax
+  4019bd:	c3                   	retq   
+
+00000000004019be <addval_432>:
+  4019be:	8d 87 48 89 e0 92    	lea    -0x6d1f76b8(%rdi),%eax
+  4019c4:	c3                   	retq   
+
+00000000004019c5 <getval_330>:
+  4019c5:	b8 48 88 e0 c3       	mov    $0xc3e08848,%eax
+  4019ca:	c3                   	retq   
+
+00000000004019cb <addval_152>:
+  4019cb:	8d 87 89 c2 38 c0    	lea    -0x3fc73d77(%rdi),%eax
+  4019d1:	c3                   	retq   
+
+00000000004019d2 <setval_312>:
+  4019d2:	c7 07 89 c2 a4 c0    	movl   $0xc0a4c289,(%rdi)
+  4019d8:	c3                   	retq   
+
+00000000004019d9 <addval_480>:
+  4019d9:	8d 87 8d d1 90 c3    	lea    -0x3c6f2e73(%rdi),%eax
+  4019df:	c3                   	retq   
+
+00000000004019e0 <getval_427>:
+  4019e0:	b8 48 89 e0 90       	mov    $0x90e08948,%eax
+  4019e5:	c3                   	retq   
+
+00000000004019e6 <addval_218>:
+  4019e6:	8d 87 89 d1 20 db    	lea    -0x24df2e77(%rdi),%eax
+  4019ec:	c3                   	retq   
+
+00000000004019ed <setval_295>:
+  4019ed:	c7 07 89 ce 18 c9    	movl   $0xc918ce89,(%rdi)
+  4019f3:	c3                   	retq   
+
+00000000004019f4 <getval_422>:
+  4019f4:	b8 48 89 e0 c3       	mov    $0xc3e08948,%eax
+  4019f9:	c3                   	retq   
+
+00000000004019fa <setval_347>:
+  4019fa:	c7 07 89 c2 00 db    	movl   $0xdb00c289,(%rdi)
+  401a00:	c3                   	retq   
+
+0000000000401a01 <setval_271>:
+  401a01:	c7 07 89 ce 84 d2    	movl   $0xd284ce89,(%rdi)
+  401a07:	c3                   	retq   
+
+0000000000401a08 <getval_321>:
+  401a08:	b8 89 d1 92 90       	mov    $0x9092d189,%eax
+  401a0d:	c3                   	retq   
+
+0000000000401a0e <getval_291>:
+  401a0e:	b8 99 d1 90 90       	mov    $0x9090d199,%eax
+  401a13:	c3                   	retq   
+
+0000000000401a14 <addval_384>:
+  401a14:	8d 87 99 ce 84 c0    	lea    -0x3f7b3167(%rdi),%eax
+  401a1a:	c3                   	retq   
+
+0000000000401a1b <addval_225>:
+  401a1b:	8d 87 89 d1 c3 83    	lea    -0x7c3c2e77(%rdi),%eax
+  401a21:	c3                   	retq   
+
+0000000000401a22 <addval_272>:
+  401a22:	8d 87 89 c2 38 c9    	lea    -0x36c73d77(%rdi),%eax
+  401a28:	c3                   	retq   
+
+0000000000401a29 <addval_264>:
+  401a29:	8d 87 88 d1 38 c9    	lea    -0x36c72e78(%rdi),%eax
+  401a2f:	c3                   	retq   
+
+0000000000401a30 <addval_448>:
+  401a30:	8d 87 89 c2 30 c9    	lea    -0x36cf3d77(%rdi),%eax
+  401a36:	c3                   	retq   
+
+0000000000401a37 <getval_380>:
+  401a37:	b8 88 d1 38 d2       	mov    $0xd238d188,%eax
+  401a3c:	c3                   	retq   
+
+0000000000401a3d <addval_389>:
+  401a3d:	8d 87 89 c2 78 db    	lea    -0x24873d77(%rdi),%eax
+  401a43:	c3                   	retq   
+
+0000000000401a44 <setval_461>:
+  401a44:	c7 07 48 89 e0 c2    	movl   $0xc2e08948,(%rdi)
+  401a4a:	c3                   	retq   
+
+0000000000401a4b <setval_177>:
+  401a4b:	c7 07 88 c2 08 c9    	movl   $0xc908c288,(%rdi)
+  401a51:	c3                   	retq   
+
+0000000000401a52 <setval_474>:
+  401a52:	c7 07 89 ce 18 db    	movl   $0xdb18ce89,(%rdi)
+  401a58:	c3                   	retq   
